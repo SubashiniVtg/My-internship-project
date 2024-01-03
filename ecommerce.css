@@ -1,0 +1,458 @@
+//index.css
+body
+{
+    background-image:url(https://images.pexels.com/photos/4175054/pexels-photo-4175054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/4175054/pexels-photo-4175054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+    background-size: cover;
+    background-position: center;
+    height: 250vh;
+    
+}
+h2
+{
+  font-size: 45px;
+ text-shadow: 10px rgb(150, 10, 94);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+} 
+h3{
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+.regform
+{
+  padding:10px 20px  30px;
+  width: 500px;;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 150px auto;
+  color:white;
+  font-size:20px;
+  border-radius: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.regform .textlabel
+{
+  display: block;
+  padding :10px 20px 10px 10px;
+}
+.input input
+{
+  width:90%;
+  height:auto;
+  font-size: 18px;
+  box-shadow: 2px;
+  border:1px solid rgb(224, 25, 141);
+  border-radius: 10px;
+  padding: 10px ;
+  font-family: 'Times New Roman', Times, serif;
+}
+.radio input
+{
+  accent-color:rgb(111, 40, 52) ;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  box-shadow: 2px;
+  border:1px solid rgb(224, 25, 141);
+  border-radius: 10px;
+}
+.regform .gender
+{
+  font-size: 25px;
+  font-style:bold;
+  font-family: 'Times New Roman', Times, serif;
+ text-transform: capitalize; 
+ color: white;
+}
+.regform .checkbox
+{
+  width:auto;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration-line: underline;
+
+}
+.regform h4
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+}
+.btn
+{
+  text-align: center;
+}
+button
+{
+  background-color:whitesmoke;
+  font-size: 30px;
+  color:white;
+  margin-top: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(145, 14, 97);
+  box-shadow: 3px;
+  
+}
+//selection.css
+  .head
+{
+    padding:25px;
+ font-size: 50px;
+ text-align: center;
+ color: rgb(113, 12, 61);
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+    background-image:url(https://images.pexels.com/photos/4175054/pexels-photo-4175054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+    text-transform: capitalize;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+   }
+.button
+{
+    padding:10px 20px  30px;
+  width: 500px;;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 250px auto;
+  color:white;
+  font-size:20px;
+  border-radius: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(215, 18, 149);
+  box-sizing: border-box;
+
+}
+.button.btn
+{
+  text-align: center;
+}
+button
+{
+  background-color:rgb(246, 172, 198);
+  font-size: 30px;
+  color:white;
+  margin-top: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(145, 14, 97);
+  box-shadow: 3px;
+  width:80%;
+}
+//food.css
+  body
+{
+  margin:0%;
+  font-family: Arial, Helvetica, sans-serif;  
+
+}
+.landing
+{
+  background-size: cover;
+ background-position: center;
+ height: 100vh;
+  background-image:url(https://images.pexels.com/photos/941869/pexels-photo-941869.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+}
+header a
+{
+    text-decoration: none;
+    color:aliceblue;
+    min-width: 120px;
+}
+header
+{
+    display : flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+#logo
+{
+    flex:3;
+    font-size: 45px;
+    min-width: 250px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav
+{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+nav a
+{
+    flex: 1;
+}
+nav a:hover{
+    color:whitesmoke;
+}
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+.maintext
+{
+    display: flex;
+    flex-direction: column ;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1
+{
+color:#C63D2F;
+font-size: 2.5em; 
+font-weight: bolder;
+}
+.tagline2
+{
+    color:#6B240C;
+
+}
+.maintext div
+{
+    margin-top: .75em;
+}
+.maintext button
+{
+    width:40vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:#FFB534;
+    color: white;
+    border: 1px solid #FFB534 ;
+}
+.menu
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+    background:linear-gradient(#f9e9cc,#FFB534) ;
+}
+#menuheading,#localheading
+{
+    background:linear-gradient(to right ) ;
+}
+.menu th{
+    color:#6B240C;
+    font-size: 1.5em;
+}
+table
+{
+width:100%;
+padding:1em;
+}
+.menu tr{
+    display:flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1)
+{
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2)
+{
+    justify-self: right;
+}
+.menu .Breakfast
+{
+    display: grid;
+    grid-row: span 3;
+}
+.menu h3
+{
+    font-size: 30px;
+    text-align: center;
+}
+.Lunch h3
+{
+    font-size: 30px;
+    text-align: center; 
+}
+//dress.css
+body
+{
+  margin:0%;
+  font-family: Arial, Helvetica, sans-serif;
+background-image: url(https://images.pexels.com/photos/1827130/pexels-photo-1827130.jpeg?auto=compress&cs=tinysrgb&w=300);
+height:100vh;
+background-position: center;
+background-size: cover; 
+padding-bottom: 5fr;
+}
+.button
+{
+    width:40vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:#FFB534;
+    color: white;
+    border: 1px solid #FFB534 ;
+    align-items: center;
+}
+#logo
+{
+    flex:3;
+    font-size: 25px;
+    min-width: 250px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+nav a{
+    align-content: center;
+}
+
+h1
+{
+    margin-top: 30px;
+    color: #1c1c50;
+    text-shadow: 1px 1px 1px black;
+    font-size: 45px;
+    min-width: 250px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.flex-container
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+    background:linear-gradient(#bde9f7,#c8fefe) ;
+font-family: 'Roboto Slab', serif;
+margin-top: 100px;
+padding:2fr;
+border: 1px solid black;
+background-color: azure;
+
+}
+.flex-container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.flex-container h3{
+    letter-spacing: 3px;
+    color: #1c1c50;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+}
+.flex-box
+{
+    width:250px;
+    height: 250px;
+    background:linear-gradient(white) ;
+ color:black;
+ font-size: 25px;
+ text-align: center;
+ line-height: 30px;
+ border-radius: 20px;
+margin: 10px;
+
+}
+//coffee.css
+body
+{
+background-image: url(https://images.pexels.com/photos/18962834/pexels-photo-18962834/free-photo-of-cakes-and-coffee-served-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600);
+height:370vh;
+background-position: center;
+background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.cakes
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+    color: white; 
+}
+.coffee
+{
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+}
+#coffeevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+
+}
+.icesoft
+{
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ; 
+}
+#icecreamvarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#softdrinks
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#cakevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#cupcakevarieties
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+
+
+
+  
+  
